@@ -1,0 +1,44 @@
+server/
+
+# ── Dev tooling / internal notes ────────────────────────────────────
+issues/
+docs/
+
+# ── Dependencies ─────────────────────────────────────────────────────
+node_modules/
+
+# ── Python virtualenv ────────────────────────────────────────────────
+backend/venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+*.pyc
+__pycache__/
+
+# ── Build output ─────────────────────────────────────────────────────
+client/dist/
+
+# ── Environment files (never commit secrets) ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Logs ─────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS / editor ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Vite cache ────────────────────────────────────────────────────────
+*.local
+
+# ── Agent config (may contain API keys) ──────────────────────────────
+.claude/
+.gemini/
+
+# ── Throwaway / debug artifacts ───────────────────────────────────────
+_*
